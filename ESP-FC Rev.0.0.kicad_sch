@@ -1,0 +1,156 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "3e1204b2-b79a-4f53-9cc5-58f8ed54619c")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 143.51 82.55)
+		(uuid "66175a5a-e6f9-4f41-88a6-1db0daa7696f")
+	)
+	(sheet
+		(at 25.4 29.21)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9c7c1c66-7548-4974-967e-64b39cbd9f20")
+		(property "Sheetname" "Flight Controller MCU"
+			(at 25.4 28.4984 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 25.4 47.5746 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP-FC Rev.0.0"
+				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 74.93 29.21)
+		(size 31.75 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cc2fb7f8-a92a-460b-8e15-a06843834cfc")
+		(property "Sheetname" "Sensors"
+			(at 74.93 28.4984 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 74.93 47.5746 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP-FC Rev.0.0"
+				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 60.96)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fec300f5-4ed9-400b-8361-512cf2061583")
+		(property "Sheetname" "Power"
+			(at 25.4 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25.4 80.5946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP-FC Rev.0.0"
+				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
