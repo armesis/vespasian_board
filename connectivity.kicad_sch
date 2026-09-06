@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a1b27422-c451-41d3-bfdc-fd03e8b699f1")
+	(uuid "c53809e3-06ae-4327-bcef-1b48def1e1ad")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
@@ -1948,7 +1948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" ""
 			(at 211.582 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -2553,7 +2553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 233.68 107.95 0)
 			(hide yes)
 			(show_name no)

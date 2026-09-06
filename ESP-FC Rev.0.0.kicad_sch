@@ -12,7 +12,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -43,6 +42,17 @@
 				(justify left top)
 			)
 		)
+		(property "Sheettext" "CONN."
+			(at 90.932 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
 		(instances
 			(project "ESP-FC Rev.0.0"
 				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
@@ -53,12 +63,11 @@
 	)
 	(sheet
 		(at 25.4 29.21)
-		(size 33.02 17.78)
+		(size 31.75 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -89,6 +98,17 @@
 				(justify left top)
 			)
 		)
+		(property "Sheettext" "MCU"
+			(at 41.402 37.338 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
 		(instances
 			(project "ESP-FC Rev.0.0"
 				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
@@ -104,7 +124,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -135,6 +154,17 @@
 				(justify left top)
 			)
 		)
+		(property "Sheettext" "SENSORS"
+			(at 91.44 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
+			)
+		)
 		(instances
 			(project "ESP-FC Rev.0.0"
 				(path "/3e1204b2-b79a-4f53-9cc5-58f8ed54619c"
@@ -145,12 +175,11 @@
 	)
 	(sheet
 		(at 25.4 60.96)
-		(size 33.02 19.05)
+		(size 31.75 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -179,6 +208,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Sheettext" "POWER"
+			(at 41.402 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(bold yes)
+				)
 			)
 		)
 		(instances
