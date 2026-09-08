@@ -22923,5 +22923,85 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 70 64)
+		(end 97 32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "92eb7bcc-06e2-4bf2-afb5-20df6c217328")
+	)
+	(gr_line
+		(start 70 132)
+		(end 70 64)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "c3f9e7a0-10e1-40d4-b77c-cdf3f9098ea3")
+	)
+	(gr_line
+		(start 97 32)
+		(end 209 32)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "311cf1e6-b394-4f25-ab11-bca5cab76196")
+	)
+	(gr_line
+		(start 104 163)
+		(end 70 132)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "d8f518d0-f04e-42a5-982c-ba518995f200")
+	)
+	(gr_line
+		(start 203 163)
+		(end 104 163)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "247bc28c-1186-479b-9c7b-da2bf52209ba")
+	)
+	(gr_line
+		(start 209 32)
+		(end 252 70)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "db1f34f1-5ced-400c-8e30-f468c37e2a3e")
+	)
+	(gr_line
+		(start 252 70)
+		(end 252 129)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "320ec082-4dfe-4ddf-ad63-7aff05274364")
+	)
+	(gr_line
+		(start 252 129)
+		(end 203 163)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "388b006b-860c-4188-b1fd-3f6dc467365b")
+	)
 	(embedded_fonts no)
 )
