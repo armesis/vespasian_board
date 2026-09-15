@@ -2143,6 +2143,22 @@
 		(uuid "fe31ef7a-f977-4561-a22d-0ac394700f25")
 	)
 	(no_connect
+		(at 129.54 38.1)
+		(uuid "0047a422-6252-4fe5-8001-7564366b623a")
+	)
+	(no_connect
+		(at 129.54 60.96)
+		(uuid "044a3951-3cd7-4b8e-8224-e805dad07322")
+	)
+	(no_connect
+		(at 129.54 40.64)
+		(uuid "05af3d6b-5580-4efc-92e6-d9311e56014c")
+	)
+	(no_connect
+		(at 129.54 104.14)
+		(uuid "13e99969-e1f2-42f4-800b-ef24a7513fb8")
+	)
+	(no_connect
 		(at 262.89 29.21)
 		(uuid "141b2ad3-e756-483b-9f97-249177b0429f")
 	)
@@ -2151,12 +2167,52 @@
 		(uuid "23ed6793-f9d6-4800-a518-3cb5e0800625")
 	)
 	(no_connect
+		(at 38.1 104.14)
+		(uuid "4e3839c5-9eaa-47a1-9048-5af309453771")
+	)
+	(no_connect
+		(at 38.1 106.68)
+		(uuid "7c52aa61-ad01-4d6f-bda9-c3e81e9c2b49")
+	)
+	(no_connect
+		(at 129.54 109.22)
+		(uuid "9205cb11-ecab-4105-8d48-9c4ee46acc83")
+	)
+	(no_connect
+		(at 38.1 45.72)
+		(uuid "a7874c61-6dca-407c-bfe6-9c8276cbef5a")
+	)
+	(no_connect
+		(at 129.54 63.5)
+		(uuid "b7641695-188f-4ce1-848c-41e8e58c87d1")
+	)
+	(no_connect
+		(at 129.54 68.58)
+		(uuid "bd1c1c0c-d968-452a-a654-b90753e7acba")
+	)
+	(no_connect
+		(at 129.54 99.06)
+		(uuid "bde072c8-1a6d-4e36-ad8c-d808f3e21b24")
+	)
+	(no_connect
 		(at 262.89 38.1)
 		(uuid "c4d5bbe8-1674-4da3-9ee1-a612d6cd4dd5")
 	)
 	(no_connect
 		(at 262.89 55.88)
 		(uuid "cc864e91-01f6-4ded-b1a2-b85d5600e864")
+	)
+	(no_connect
+		(at 38.1 109.22)
+		(uuid "d4b43c57-d41d-422e-95ca-9e0cba157e9f")
+	)
+	(no_connect
+		(at 129.54 101.6)
+		(uuid "de02c12c-eb4e-4f3b-b040-b6ecef8af8d0")
+	)
+	(no_connect
+		(at 129.54 71.12)
+		(uuid "f131713c-3f16-4245-b714-0cba7515e085")
 	)
 	(wire
 		(pts
@@ -3729,7 +3785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 27.432 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -3891,7 +3947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 145.542 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4118,7 +4174,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-S3-WROOM-1"
+		(property "Value" "ESP32-S3-WROOM-1U"
 			(at 85.9633 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4484,7 +4540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 73.3552 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4565,7 +4621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.89 104.902 90)
 			(hide yes)
 			(show_name no)
@@ -4646,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.62 64.262 90)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D12.5mm_H25.0mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 65.7352 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5813,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -5896,7 +5952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 269.24 144.78 0)
 			(hide yes)
 			(show_name no)
