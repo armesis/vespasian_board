@@ -1,6 +1,7 @@
 ---
 status: accepted
 date: 2026-09-03
+amended: 2026-09-18
 ---
 
 # ESP-FC on a custom carrier board as the primary flight controller
@@ -10,5 +11,5 @@ The aircraft is flown by a modified build of [ESP-FC](https://github.com/rtlopez
 ## Consequences
 
 - The control loop, the radio stacks and GPS parsing all share one MCU. Core pinning and loop timing are our responsibility, not a vendor's.
-- A firmware hang is an uncommanded descent. This is the reason [ADR-0007](0007-motor-buffer-and-hardware-interlock.md) exists.
+- A firmware hang is an uncommanded descent. [ADR-0007](0007-motor-buffer-and-hardware-interlock.md) proposed a hardware interlock against it and was dropped on 2026-09-18, so Rev.0.0 relies on firmware alone.
 - Nothing in the design may depend on a capability ESP-FC does not already have unless someone writes it — see [ADR-0006](0006-port-an-ist8310-driver.md).

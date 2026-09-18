@@ -12,7 +12,7 @@ Each record captures a decision that is hard to reverse, surprising without cont
 | [0004](0004-gy91-hard-soldered-on-spi.md) | GY-91 hard-soldered flat, on SPI | Amended 2026-09-15 |
 | [0005](0005-compass-on-the-gps-mast.md) | The compass lives on the GPS mast, not on the carrier board | Amended 2026-09-15 |
 | [0006](0006-port-an-ist8310-driver.md) | Port an IST8310 driver into ESP-FC rather than change the GPS module | Firmware work |
-| [0007](0007-motor-buffer-and-hardware-interlock.md) | Level-shift buffer on the motor outputs, with its `/OE` as a hardware interlock | Safety · **Not in schematic** |
+| [0007](0007-motor-buffer-and-hardware-interlock.md) | Level-shift buffer on the motor outputs, with its `/OE` as a hardware interlock | Safety · **Dropped 2026-09-18** |
 | [0008](0008-esc-header-5v-pins-unconnected.md) | ESC header +5 V pins are unconnected by default | Do not "fix" · Amended 2026-09-15 |
 | [0009](0009-escs-mounted-centrally.md) | ESCs mount centrally, not on the arms | Amended 2026-09-15 |
 | [0010](0010-shunt-current-sensing.md) | Current sensing by shunt and INA180, not a hall sensor | Supersedes an ACS758 draft · Amended 2026-09-15 |
@@ -30,11 +30,10 @@ Each record captures a decision that is hard to reverse, surprising without cont
 
 Compared against the saved Rev.0.0 schematic on 2026-09-15. These decisions stand, but the hardware they call for has not been drawn:
 
-- **[ADR-0007](0007-motor-buffer-and-hardware-interlock.md) — motor buffer and interlock.** There is no `74AHCT125`: `GPIO39`–`GPIO42` drive the ESC headers directly, with no series resistors and no ESC-side pull-downs. The `/OE` pin the record names, `GPIO9`, now carries the compass I2C clock, and the mast's `SAFETY_SWITCH` button is a firmware input on `GPIO21` rather than being in series with an `/OE` pull-up. As drawn, the board has no hardware interlock.
 - **[ADR-0011](0011-blackbox-to-onboard-flash.md) — blackbox flash.** No `W25Q128`, and no SPI3 bus.
 - **[ADR-0012](0012-split-band-radio-plan.md) — telemetry link.** No connector for the 433 MHz LoRa radio. UART0 on `GPIO43`/`GPIO44` is unused and free for it.
 
-Eleven GPIO remain free — `GPIO4`, `6`, `7`, `15`, `35`–`38`, `43`, `44` and `48` — against the seven these three need: four for SPI3, two for the LoRa UART and one for `/OE`. `GPIO35`–`37` count as free only because the module is the no-PSRAM `N16` ([ADR-0002](0002-esp32-s3-rather-than-esp32.md)).
+Eleven GPIO remain free — `GPIO4`, `6`, `7`, `15`, `35`–`38`, `43`, `44` and `48` — against the six these two need: four for SPI3 and two for the LoRa UART. `GPIO35`–`37` count as free only because the module is the no-PSRAM `N16` ([ADR-0002](0002-esp32-s3-rather-than-esp32.md)).
 
 ## Deliberately not recorded
 

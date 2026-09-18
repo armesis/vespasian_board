@@ -1,7 +1,7 @@
 ---
 status: accepted
 date: 2026-09-03
-amended: 2026-09-15
+amended: 2026-09-18
 ---
 
 # The compass lives on the GPS mast, not on the carrier board
@@ -18,4 +18,4 @@ The carrier board therefore exposes one 10-pin JST-GH (`BM10B-GHS-TBT`) with the
 - GNSS reception is the second, independent reason the module stays off-board: L1 arrives at roughly −130 dBm, and a switching regulator alongside it raises the noise floor.
 - **Verify pin 8 is an input before first power-up.** The Pixhawk standard defines `VDD_3V3` as supplied by the autopilot, and Rev.0.0 ties it to the 3.3 V rail on that basis. A module that instead brings its own regulator out on pin 8 would put two regulator outputs in contention. Power the module from pin 1 alone and measure pin 8: if it reads about 3.3 V, disconnect it.
 - The buzzer is a piezo returned to pin 8, so `BUZZER−` is pulled low straight from `GPIO5` through 110 Ω — no transistor. A piezo draws well under a milliamp on average; the resistor caps the edge current into its capacitance and costs no volume. Loudness comes from driving the element at its mechanical resonance, not from drive current.
-- `SAFETY_SWITCH` is read by firmware on `GPIO21`, with a 10 kΩ pull-up and 100 nF debounce, and its LED is pulled low from `GPIO47` through 330 Ω. The button gates arming in software only. It is **not** the hardware interlock of [ADR-0007](0007-motor-buffer-and-hardware-interlock.md).
+- `SAFETY_SWITCH` is read by firmware on `GPIO21`, with a 10 kΩ pull-up and 100 nF debounce, and its LED is pulled low from `GPIO47` through 330 Ω. The button gates arming in software only. The board has no hardware interlock: [ADR-0007](0007-motor-buffer-and-hardware-interlock.md), which proposed one, was dropped on 2026-09-18.
